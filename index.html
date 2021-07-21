@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/todoList/index.css">
+  <script src="/todoList/index.js"></script>
+  <title>todoList</title>
+</head>
+<body>
+  <div class="container">
+    <div class="typing-box">
+      <input type="text" id="typeGoal" placeholder="목표를 입력하세요"/>
+      <button type="submit" id="saveGoal" onclick="showGoal()">저장하기</button>
+      <button type="submit" id="delGoal" onclick="delData()">삭제하기</button>
+    </div>
+    <div class="show-content">
+      <h1>목표</h1>
+      <ul id="showData"></ul>
+    </div>
+  </div>
+</body>
+</html>
+
+
